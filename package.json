@@ -1,20 +1,32 @@
 {
   "name": "@pipeworx/mcp-bank-of-canada",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Bank of Canada Valet API MCP. Keyless. Dates are YYYY-MM-DD.",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
+  "bin": {
+    "mcp-bank-of-canada": "bin/cli.js"
+  },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "bank-of-canada"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pipeworx-io/mcp-bank-of-canada"
+    "url": "git+https://github.com/pipeworx-io/mcp-bank-of-canada.git"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
   "devDependencies": {
-    "typescript": "^5.7.0"
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-9cf20f07fec3386985af7654355340616ad7bc4f98498922ca6e8a2c7f3bbeda",
+    "sourceCommit": "60f04b68c347e970c6be94a53439d1364061fc06"
   }
 }
