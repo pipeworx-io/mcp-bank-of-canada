@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-bank-of-canada",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Bank of Canada Valet API MCP. Keyless. Dates are YYYY-MM-DD.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-9cf20f07fec3386985af7654355340616ad7bc4f98498922ca6e8a2c7f3bbeda",
-    "sourceCommit": "60f04b68c347e970c6be94a53439d1364061fc06"
+    "sourceHash": "v1-b5628f60ab4d1b01be5fe5b6aedf425e275bbcf2f5d7690661c330d9e67c68a3",
+    "sourceCommit": "454041882179fae560c06e770b6b7a2f33970015"
   }
 }
